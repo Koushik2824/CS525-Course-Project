@@ -250,7 +250,7 @@ def generate_random_graph_SAT(vertex_count_upper_limit: int = 1000,
 
 if __name__ == "__main__":
     for order in range(10,101,10):
-    #generate_McGregor_SAT(order=order, colors=4)
+        generate_McGregor_SAT(order=order, colors=4)
     #generate_McGregor_SAT_Sinz(order=order,colors=4,constraint=7)
-        generate_McGregor_SAT_Tree_method(order=order,colors=4,constraint=7)
+    #generate_McGregor_SAT_Tree_method(order=order,colors=4,constraint=7)
     #generate_random_graph_SAT(vertex_count_upper_limit=upper, vertex_count_lower_limit=lower, colors=4,index=i)
